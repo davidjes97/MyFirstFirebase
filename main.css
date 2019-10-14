@@ -1,0 +1,77 @@
+#tbody tr:nth-child(odd) {
+    background: #e9be61;
+}
+  
+#tbody tr:nth-child(even) {
+    background: #d1911b;
+}
+
+#expenseList {
+    border: 1px solid black;
+    margin: 2em;
+    width: fit-content;
+    padding: 5px;
+}
+
+#expenseform{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-radius: 25px;
+    border: 2px solid gray;
+    margin: 20px;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+}
+
+#addButton{
+    border-radius: 5px;
+    margin: 5px;
+    width: fit-content;
+    margin-left: 60%;
+}
+
+#what{
+    margin: 5px;
+    width: fit-content;
+}
+
+#amt{
+    width: fit-content;
+    margin: 5px;
+    text-align:center;
+}
+
+#when{
+    margin: 5px;
+    width: fit-content;
+    text-align:center;
+}
+
+#category{
+    margin:5px;
+    width: 80%;
+}
+
+#content{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 8fr;
+}
+
+#label{
+    font-weight:bold;
+    font-size:20px;
+}
+ 
+#removeButton{
+    margin-left:50%;
+}
+
+td{
+    align-content: center;
+    width: fit-content;
+    height: fit-content;
+}
+
